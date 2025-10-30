@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Laxmi Sharma</title>
+  <meta name="description" content="Contact Laxmi Sharma for collaborations in data analytics, visualization, and applied AI." />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="site-loader-contact" class="loader-viewport small">
+    <div class="loader-ring"></div>
+  </div>
+
+  <header class="site-header">
+    <div class="brand">LAXMI</div>
+    <nav class="main-nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="contact.html" class="nav-link active">Contact</a>
+    </nav>
+  </header>
+
+  <main class="section--soft contact-page">
+    <section class="contact reveal">
+      <h1 class="section-title">Let’s Collaborate</h1>
+      <p class="lead">I welcome conversations about analytics projects, internships, or collaborative research.</p>
+
+      <form id="contact-form" class="contact-form" action="#" method="post" onsubmit="return handleContact(event)">
+        <label class="sr-only" for="name">Full name</label>
+        <input id="name" name="name" type="text" placeholder="Full name" required>
+
+        <label class="sr-only" for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="Email address" required>
+
+        <label class="sr-only" for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Tell me about your idea or opportunity..." required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="socials">
+      <a href="https://github.com/Laxmi02-ux" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/laxmi-sharma-67052a33b" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <div class="legal">© 2025 Laxmi Sharma — Data, designed with care.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
